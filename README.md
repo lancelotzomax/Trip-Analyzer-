@@ -3,13 +3,13 @@ This project aims to do the multi-used sentiment analysis of tourists' reviews v
 
 The following five steps demostrate how to analyze the popular tourist spots from an amount of downloaded blog texts and generate a word cloud to display the result. Here, we take 46 tourist reviews as dataset examples and generate a word cloud with names of the most popular tourist attractions frequnetly mentioned in the reviews.
 
-### Step 1: Import modules needed in making a wordcloud
+Step 1: Import modules needed in making a wordcloud
 from wordcloud import WordCloud, STOPWORDS
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
-## Stpe 2: Import spacy to do text mining
+Step 2: Import spacy to do text mining
 import spacy
 nlp = spacy.cli.download("en_core_web_md")
 
